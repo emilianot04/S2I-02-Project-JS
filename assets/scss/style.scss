@@ -7,12 +7,13 @@ $font: "Metal Mania", cursive;
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
+  touch-action: manipulation;
 }
 body {
   background-image: url("../img/background.jpg");
   background-color: $colorBlack;
-  padding: 1rem;
-  width: 100%;
+  padding: 1%;
+  width: 98%;
 }
 .flex-container {
   display: flex;
@@ -64,10 +65,7 @@ h1 {
   background-color: $colorBlack;
 }
 
-@media (max-width: 767px) {
-  body {
-    padding: 1%;
-  }
+@media only screen and (max-width: 767px) {
   .container {
     width: 98%;
     padding: 1%;
