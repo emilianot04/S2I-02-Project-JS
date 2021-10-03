@@ -1,5 +1,5 @@
 # S2I-02-Project-JS
-Primo Progetto JavaScript base Start 2 Impact<br>
+Progetto JavaScript Start 2 Impact<br>
 Realizzazione counter con Html Css e JavaScript.
 Link del progetto
 https://www.t04.it/S2I-02-Project-JS/
