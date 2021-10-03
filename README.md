@@ -1,4 +1,4 @@
-# S2I-02-Project-JS
+# S2I-02- Progetto JavaScript Basic
 Progetto JavaScript Start 2 Impact<br>
 Realizzazione counter con Html Css e JavaScript.<br>
 Link del progetto<br>
