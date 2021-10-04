@@ -21,7 +21,7 @@ function htmlCreateElement(varName, text, idName) {
   varName.addEventListener("click", changeValue);
 }
 
-/* Crazione tre pulsanti tramite la  funzione pulsanti html  */
+/* Creazione tre pulsanti tramite la funzione htmlCreateElement  */
 htmlCreateElement(buttonLess, "-", "less");
 htmlCreateElement(buttonMore, "+", "more");
 htmlCreateElement(reset, "RESET", "reset");
