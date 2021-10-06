@@ -10,14 +10,14 @@ let Audio2 = new Audio("assets/audio/Applause.mp3");
 /* Creazione contatore html  */
 counter.innerHTML = initialValue;
 counter.setAttribute("id", "number");
-document.getElementById("counter").appendChild(counter);
+document.getElementById("counter").append(counter);
 
 /* Creazione pulsanti html  */
 function htmlCreateElement(varName, text, idName) {
   varName.innerHTML = text;
   varName.setAttribute("id", idName);
   varName.setAttribute("data-name", "button-" + idName);
-  document.getElementById("button-" + idName).appendChild(varName);
+  document.getElementById("button-" + idName).append(varName);
   varName.addEventListener("click", changeValue);
 }
 
